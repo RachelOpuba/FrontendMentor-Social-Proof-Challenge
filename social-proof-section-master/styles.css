@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: spartan;
+    
+}
+
+.page-wraper{
+    background-image: 
+    url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom ;
+    background-repeat: no-repeat;  
+    background-size: 70%, 60%; 
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-wraper{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2.5em;
+}
+
+.first-text{
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+}
+
+.first-text h1 {
+    font-weight: 700;
+    font-size: 1.5rem
+  
+}
+
+.first-text p{
+    font-size: .55rem;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+
+
+.rating{
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+
+}
+
+.rating img{
+    margin-top: 10px;
+    height: 12px;
+}
+
+.rating h6 {
+    margin-top: 7px;
+    padding-bottom: 10px;
+
+}
+
+.review {
+    background-color:hsl(300, 43%, 22%);
+    color:  hsl(0, 0%, 100%);
+    border-radius: 7px;
+    color: hsl(300, 24%, 96%);
+    padding: 20px ;
+    margin-bottom: 10px;
+}
+
+.review img{
+    height: 35px;
+    border-radius: 50%;
+}
+
+.review p{
+    line-height: 15px;
+    font-weight: 400;
+    font-size: .5rem;
+}
+
+.buyer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+.buyer-info {
+    line-height: 0px;
+    margin-left: 20px;
+}
+.buyer-info p{
+    line-height: 5px;
+    font-size: .6rem;
+}
+.attribution {
+    font-size: 9px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
+
+
+  @media  screen and (min-width:720px){
+
+    .page-wraper{
+        background-size: 40%, 60%;
+        height: 100%;
+        width: 80vw;
+    }
+
+    .content-wraper{
+        width: 80vw;
+        
+    }
+
+    .first-text h1{
+        font-size: 4rem;
+        max-width: 100%;
+        
+    }
+
+    .first-text p{
+      font-size: 1.5rem;
+      max-width: 100%;
+  }
+
+  .review p{
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+
+    
+  @media  screen and (min-width:1500px){
+
+    .page-wraper{
+        background-size: 40%, 60%;
+        height: 100%;
+        width: 80vw;
+    }
+
+    .content-wraper{
+        width: 70vw;
+       
+    }
+
+       .sec-1 {
+          display: flex;
+          margin-bottom: 100px;   
+      }
+
+      .reviews-sec{
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+             
+      }
+
+      
+      .first-text{
+          padding:5rem;
+          width: 50%;
+          text-align: left;
+          margin-bottom: 0;
+      }
+
+      .first-text h1{
+          font-size: 4rem;
+          max-width: 80%;
+          
+      }
+
+      .first-text p{
+        font-size: 1.5rem;
+        max-width: 80%;
+    }
+
+    
+      .ratings-sec{
+          width: 50%;
+          
+      }
+
+      .rating-wraper{
+          margin-top: 120px;
+          
+      }
+
+      .rating{
+
+          margin-top: 2rem;
+          border-radius: 10px;
+          width: 40rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.5rem;
+          
+          
+      }
+
+      .rating img{
+        margin-top: 0px;
+        height: 22px;
+        margin-right: 1em;
+
+  }
+
+  .rating h6 {
+    margin-left: 20px;
+    padding-bottom: 1px ;
+    padding-top: 50px;
+    font-size: 1.5rem;
+  }
+
+
+.one{
+    margin-left: 1%;
+    height: 60px;
+    padding-left: ;
+}
+
+.two{
+  margin-left: 10%;
+  height: 60px;
+  
+}
+
+.three{
+  margin-left: 20%;
+  height: 60px;
+    
+}
+
+.reviews-sec{
+    display: flex;
+    gap:50px;
+    padding: 1rem;
+    margin-top: 0px;
+    
+}
+
+
+.review {
+    padding: 40px ;
+    margin-bottom: 0px;
+    
+}
+
+.first{
+    
+    
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.second{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.third {
+    margin-top: 40px;
+    border-radius: 20px;
+
+}
+
+.review img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.review p{
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.buyer-info {
+    line-height: 0px;
+    margin-left: 20px;
+}
+.buyer-info p{
+    line-height: 10px;
+    font-size: 1.5rem;
+
+}
+}
